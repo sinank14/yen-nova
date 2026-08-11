@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60">
+  <!-- Echolectic Stylized Title -->
+  <text x="0" y="45" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="40" fill="#ffffff" letter-spacing="2">Echolectic</text>
+  <circle cx="285" cy="38" r="4" fill="#00f0ff" />
+</svg>

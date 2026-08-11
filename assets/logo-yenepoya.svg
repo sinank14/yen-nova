@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <!-- Top Horizontal Bar -->
+  <rect x="70" y="20" width="260" height="26" rx="13" fill="#e66020" />
+  
+  <!-- Vertical Pillars -->
+  <rect x="110" y="56" width="36" height="100" rx="18" fill="#d9531e" />
+  <rect x="160" y="56" width="36" height="150" rx="18" fill="#e66020" />
+  <rect x="210" y="56" width="36" height="150" rx="18" fill="#f5aa1e" />
+  <rect x="260" y="56" width="36" height="150" rx="18" fill="#e66020" />
+
+  <!-- YENEPOYA Text -->
+  <text x="200" y="245" font-family="'Space Grotesk', 'Inter', sans-serif" font-weight="900" font-size="44" fill="#e66020" text-anchor="middle" letter-spacing="2">YENEPOYA</text>
+  
+  <!-- INSTITUTE OF TECHNOLOGY Text -->
+  <text x="200" y="280" font-family="'Inter', sans-serif" font-weight="700" font-size="20" fill="#d9531e" text-anchor="middle" letter-spacing="1">INSTITUTE OF TECHNOLOGY</text>
+
+  <!-- MOODBIDRI Box -->
+  <rect x="100" y="295" width="200" height="36" fill="#e66020" rx="4"/>
+  <text x="200" y="321" font-family="'Inter', sans-serif" font-weight="900" font-size="20" fill="#ffffff" text-anchor="middle" letter-spacing="4">MOODBIDRI</text>
+</svg>

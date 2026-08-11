@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="100%" height="100%">
+  <!-- Gear & IC Chip Graphic -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Gear Arc -->
+    <path d="M 65 15 A 50 50 0 0 1 115 65 L 130 65 L 130 85 L 115 85 A 50 50 0 0 1 65 135 L 65 150 L 45 150 L 45 135 A 50 50 0 0 1 -5 85 L -20 85 L -20 65 L -5 65 A 50 50 0 0 1 45 15 L 45 0 L 65 0 Z" fill="#1b75ff" opacity="0.9" transform="translate(20, -10)" />
+    <circle cx="75" cy="65" r="42" fill="#050810" />
+    <circle cx="75" cy="65" r="40" fill="none" stroke="#00f0ff" stroke-width="3" />
+
+    <!-- Central Microchip IC -->
+    <rect x="60" y="50" width="30" height="30" rx="4" fill="#0066ff" stroke="#00f0ff" stroke-width="2"/>
+    <!-- IC Pins -->
+    <line x1="60" y1="57" x2="48" y2="57" stroke="#00f0ff" stroke-width="2"/>
+    <line x1="60" y1="65" x2="48" y2="65" stroke="#00f0ff" stroke-width="2"/>
+    <line x1="60" y1="73" x2="48" y2="73" stroke="#00f0ff" stroke-width="2"/>
+
+    <line x1="90" y1="57" x2="102" y2="57" stroke="#00f0ff" stroke-width="2"/>
+    <line x1="90" y1="65" x2="102" y2="65" stroke="#00f0ff" stroke-width="2"/>
+    <line x1="90" y1="73" x2="102" y2="73" stroke="#00f0ff" stroke-width="2"/>
+
+    <line x1="67" y1="50" x2="67" y2="38" stroke="#00f0ff" stroke-width="2"/>
+    <line x1="75" y1="50" x2="75" y2="38" stroke="#00f0ff" stroke-width="2"/>
+    <line x1="83" y1="50" x2="83" y2="38" stroke="#00f0ff" stroke-width="2"/>
+
+    <line x1="67" y1="80" x2="67" y2="92" stroke="#00f0ff" stroke-width="2"/>
+    <line x1="75" y1="80" x2="75" y2="92" stroke="#00f0ff" stroke-width="2"/>
+    <line x1="83" y1="80" x2="83" y2="92" stroke="#00f0ff" stroke-width="2"/>
+
+    <!-- Pin Nodes -->
+    <circle cx="48" cy="57" r="2.5" fill="#00f0ff"/>
+    <circle cx="48" cy="65" r="2.5" fill="#00f0ff"/>
+    <circle cx="48" cy="73" r="2.5" fill="#00f0ff"/>
+    <circle cx="102" cy="57" r="2.5" fill="#00f0ff"/>
+    <circle cx="102" cy="65" r="2.5" fill="#00f0ff"/>
+    <circle cx="102" cy="73" r="2.5" fill="#00f0ff"/>
+    <circle cx="67" cy="38" r="2.5" fill="#00f0ff"/>
+    <circle cx="75" cy="38" r="2.5" fill="#00f0ff"/>
+    <circle cx="83" cy="38" r="2.5" fill="#00f0ff"/>
+    <circle cx="67" cy="92" r="2.5" fill="#00f0ff"/>
+    <circle cx="75" cy="92" r="2.5" fill="#00f0ff"/>
+    <circle cx="83" cy="92" r="2.5" fill="#00f0ff"/>
+  </g>
+
+  <!-- Text Section -->
+  <text x="175" y="70" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="42" fill="#0080ff" letter-spacing="1">YEN EMBIENCE</text>
+  <text x="177" y="100" font-family="'Inter', sans-serif" font-weight="600" font-size="16" fill="#00f0ff" letter-spacing="2">ENVIRONMENT OF INNOVATION</text>
+</svg>
