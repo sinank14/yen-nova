@@ -1,10 +1,12 @@
 /* ==========================================================================
    ECE TECHNICAL EVENT 2026 — YENEPOYA INSTITUTE OF TECHNOLOGY
-   Application Logic — Preloader, Hardware Schematic, Modal & Countdown
+   Application Logic — Preloader, Hardware Schematic, Google Form Registration & Countdown
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
+
+  const GOOGLE_FORM_URL = 'https://forms.gle/79TdWnUqGqGEqbRy5';
 
   // --- 0. YEN NOVA PRELOADER ANIMATION HANDLER ---
   const preloader = document.getElementById('preloader');
@@ -176,45 +178,15 @@ document.addEventListener('DOMContentLoaded', () => {
   updateCountdown();
   setInterval(updateCountdown, 1000);
 
-  // --- 5. REGISTRATION MODAL POPUP ---
-  const regModal = document.getElementById('reg-modal');
-  const closeModalBtn = document.getElementById('close-modal-btn');
-  const regForm = document.getElementById('reg-form');
-  const toastMsg = document.getElementById('toast-msg');
-  const eventSelect = document.getElementById('event-select');
-
-  document.querySelectorAll('.open-reg-modal').forEach(btn => {
+  // --- 5. REGISTRATION BUTTON HANDLERS (OPENS GOOGLE FORM IN NEW TAB) ---
+  document.querySelectorAll('.open-reg-link, .open-reg-modal, a[href*="register"]').forEach(btn => {
+    btn.setAttribute('href', GOOGLE_FORM_URL);
+    btn.setAttribute('target', '_blank');
+    btn.setAttribute('rel', 'noopener noreferrer');
     btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const targetEvent = btn.getAttribute('data-event');
-      if (targetEvent && eventSelect) {
-        eventSelect.value = targetEvent;
-      }
-      if (regModal) regModal.classList.add('active');
+      e.stopPropagation();
     });
   });
-
-  if (closeModalBtn && regModal) {
-    closeModalBtn.addEventListener('click', () => {
-      regModal.classList.remove('active');
-    });
-
-    regModal.addEventListener('click', (e) => {
-      if (e.target === regModal) regModal.classList.remove('active');
-    });
-  }
-
-  if (regForm) {
-    regForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      if (regModal) regModal.classList.remove('active');
-      if (toastMsg) {
-        toastMsg.classList.add('show');
-        setTimeout(() => toastMsg.classList.remove('show'), 4000);
-      }
-      regForm.reset();
-    });
-  }
 
   // --- 6. STICKY NAVBAR SCROLL EFFECTS & ACTIVE LINK TRACKER ---
   const navbar = document.querySelector('header.navbar');
