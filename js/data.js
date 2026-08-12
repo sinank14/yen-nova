@@ -1,10 +1,10 @@
 /* ==========================================================================
    ECE TECHNICAL EVENT 2026 — YENEPOYA INSTITUTE OF TECHNOLOGY
-   Event Data Store — YEN EMBIENCE '26 & Echolectic
+   Event Data Store — Yenepoya Institute of Technology & Echolectic
    ========================================================================== */
 
 const EVENT_DATA = {
-  eventName: "YEN EMBIENCE 2026",
+  eventName: "Yenepoya Institute of Technology",
   eventTagline: "ENVIRONMENT OF INNOVATION",
   association: "Echolectic — INSPIRING INNOVATIONS...",
   eventDate: "2026-10-10T09:00:00",
@@ -12,7 +12,7 @@ const EVENT_DATA = {
   institution: "Yenepoya Institute of Technology",
   department: "Department of Electronics & Communication Engineering",
   accreditation: "Recognized by AICTE & Affiliated to VTU Belagavi (Est. 2008)",
-  
+
   hardwareKit: [
     { id: "comp-arduino", name: "Arduino Uno", qty: "1 Unit", type: "Microcontroller", desc: "ATmega328P based main processing unit for real-time sensor processing and motor actuation." },
     { id: "comp-dht22", name: "DHT22 Sensor", qty: "2 Units", type: "Climatic Sensing", desc: "Digital temperature & humidity sensor with high precision signal calibration." },
@@ -35,11 +35,7 @@ const EVENT_DATA = {
       { role: "Convenor", name: "Dr. Prasanna Kumar C", dept: "HOD, ECE Dept", init: "PK" },
       { role: "Faculty Coordinator", name: "Dr. Shashank M Gowda", dept: "ECE Department", init: "SG" }
     ],
-    students: [
-      { role: "Build-A-Thon Lead", name: "V Poorvie Pragna", dept: "Student Coordinator", init: "PP" },
-      { role: "Robotics Lead", name: "Sushanth Poojary", dept: "Student Coordinator", init: "SP" },
-      { role: "General Queries", name: "Samarth Raj V", dept: "Student Coordinator", init: "SR" }
-    ]
+    students: []
   },
 
   achievements: [

@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'INITIALIZING CIRCUIT CORE...',
       'LOADING COMPONENT SCHEMATICS...',
       'CALIBRATING OSCILLOSCOPE READOUTS...',
-      'YEN NOVA READY'
+      'YEN NOVA 1.0 READY'
     ];
 
     const progressInterval = setInterval(() => {
