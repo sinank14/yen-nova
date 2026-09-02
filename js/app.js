@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
     `).join('');
   }
 
-  // --- 4. COUNTDOWN TIMER TO 10.10.2026 (HERO & LOGISTICS) ---
+  // --- 4. COUNTDOWN TIMER TO 06.10.2026 (HERO & LOGISTICS) ---
   const cdDays = document.getElementById('cd-days');
   const cdHours = document.getElementById('cd-hours');
   const cdMins = document.getElementById('cd-mins');
@@ -146,7 +146,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const heroCdMins = document.getElementById('hero-cd-mins');
   const heroCdSecs = document.getElementById('hero-cd-secs');
 
-  const targetDate = new Date('October 10, 2026 09:00:00').getTime();
+  const targetDate = typeof EVENT_DATA !== 'undefined' && EVENT_DATA.eventDate 
+    ? new Date(EVENT_DATA.eventDate).getTime() 
+    : new Date('October 6, 2026 09:00:00').getTime();
 
   function updateCountdown() {
     const now = new Date().getTime();
