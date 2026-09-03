@@ -8,7 +8,7 @@ const EVENT_DATA = {
   eventTagline: "ENVIRONMENT OF INNOVATION",
   association: "Echolectic — INSPIRING INNOVATIONS...",
   eventDate: "2026-10-06T09:00:00",
-  rulebookUrl: "https://drive.google.com/file/d/1wfxrnzlTevn-kbtGoSWu-AIlMwNULJQY/view?usp=drivesdk",
+  rulebookUrl: "https://drive.google.com/file/d/1AYqRNHcqeFgp1cuTXvrE9TlKy9n8v9cG/view?usp=drivesdk",
   venue: "Yenepoya Institute of Technology, Moodbidri",
   institution: "Yenepoya Institute of Technology",
   department: "Department of Electronics & Communication Engineering",
